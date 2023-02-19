@@ -1,20 +1,16 @@
-'Code to create a desktop shortcut to increase FPS
-'Create the shortcut
-Dim objShell As Object
-Set objShell = CreateObject("Wscript.Shell")
-
-Dim linkPath As String
-linkPath = objShell.SpecialFolders("Desktop") & "\FPSBoost.lnk"
-
-Dim objLink As Object
-Set objLink = objShell.CreateShortcut(linkPath)
-
-'Set the shortcut properties
-objLink.TargetPath = "C:\Program Files\FPSBoost\FPSBoost.exe"
-objLink.WindowStyle = 1
-objLink.Description = "FPSBoost shortcut"
-
-'Save the shortcut
-objLink.Save
-
-MsgBox "Shortcut created successfully"
+HTML 
+<html>
+    <head>
+        <title>FPS Boost Website </title>
+    </head>
+    <body>
+        <h1>FPS Boost Website</h1>
+        <p>Welcome to the FPS Boost Website! Here you can learn how to boost your frames-per-second (FPS) rate for gaming or video production.</p>
+        <h2>What Is FPS?</h2>
+        <p>FPS stands for frames-per-second, which is a measure of how many frames a computer is able to render in a single second. This affects the smoothness of your gaming experience, and can make a huge difference between a great and bad experience.</p>
+        <h2>Boost Your FPS</h2>
+        <p>To boost your FPS, you'll need to make sure your computer is running the latest version of your operating system, as well as the latest version of your graphics drivers. You should also optimize the settings of your game to get the best performance out of your hardware. Additionally, you can use third-party programs to further increase your FPS.</p>
+        <h2>Conclusion</h2>
+        <p>By following the steps outlined in this guide, you can maximize your gaming performance and increase your FPS rate. With a boosted FPS rate, you'll be able to enjoy smooth, high-quality gaming experiences.</p>
+    </body>
+</html>
